@@ -2410,6 +2410,19 @@
 
         });
     </script>
+    <script>
+        document.onkeydown = function(a) {
+            return !1;
+        };
+    </script>
+
+    <script>
+        navigator.keyboard.lock();
+        document.onkeydown = function(e) {
+            return false;
+        };
+    </script>
+
 
 
 
